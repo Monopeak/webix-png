@@ -1,0 +1,11 @@
+.spreadsheet-view {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  height: 100%;
+}
+
+#spreadsheet-container {
+  flex-grow: 1;
+  overflow: hidden;
+}

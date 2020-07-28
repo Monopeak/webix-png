@@ -28,9 +28,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/@xbs/webix-pro/webix.css",
+              "node_modules/@xbs/webix-pro/skins/mini.css",
+              "node_modules/@xbs/spreadsheet/spreadsheet.css",
+              "node_modules/@xbs/spreadsheet/skins/mini.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/@xbs/webix-pro/webix.js",
+              "node_modules/@xbs/spreadsheet/spreadsheet.js"
+            ]
           },
           "configurations": {
             "production": {
