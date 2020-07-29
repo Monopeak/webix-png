@@ -3,7 +3,9 @@
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": []
+    "types": [],
+    "module": "es2020",
+    "baseUrl": ""
   },
   "files": [
     "src/main.ts",

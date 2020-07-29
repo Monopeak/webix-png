@@ -11,7 +11,7 @@ export class SpreadsheetComponent implements OnInit {
 
   public ngOnInit(): void {
     // @ts-ignore
-    webix.env.cdn = '/assets/webix';
+    webix.env.cdn = 'assets/webix';
 
     webix.ready(() => {
       this.spreadsheetUi = webix.ui({

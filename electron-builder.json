@@ -1,0 +1,51 @@
+{
+  "productName": "webix-png",
+  "appId": "com.webix.png",
+  "directories": {
+    "buildResources": "src/resources",
+    "output": "release/"
+  },
+  "files": [
+    "**/*",
+    "!**/*.ts",
+    "!**/*.js.map",
+    "!e2e/",
+    "!src/",
+    "!.browserlistrc",
+    "!.editorconfig",
+    "!.gitignore",
+    "!angular.json",
+    "!electron-builder.json",
+    "!karma.conf.js",
+    "!package.json",
+    "!package-lock.json",
+    "!README.md",
+    "!tsconfig.app.json",
+    "!tsconfig.base.json",
+    "!tsconfig.json",
+    "!tsconfig.spec.json",
+    "!tslint.json"
+  ],
+  "extraResources": [
+    {
+      "from": "bin/webix",
+      "to": "webix"
+    }
+  ],
+  "win": {
+    "target": [
+      "nsis"
+    ]
+  },
+  "mac": {
+    "target": [
+      "dmg",
+      "zip"
+    ]
+  },
+  "linux": {
+    "target": [
+      "AppImage"
+    ]
+  }
+}
