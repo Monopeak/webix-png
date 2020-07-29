@@ -1,7 +1,7 @@
 import { app, BrowserWindow, globalShortcut, screen } from 'electron';
 import * as os from 'os';
-import url from "url";
-import path from "path";
+import * as url from 'url';
+import * as path from 'path';
 
 let win: BrowserWindow;
 
